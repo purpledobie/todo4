@@ -17,7 +17,7 @@ spec:
         app: goof
     spec:
       containers:
-      - image: ${DOCKER_ACCOUNT}/java-goof:latest
+      - image: jimcodified/java-goof:latest
         imagePullPolicy: Always
         name: java-goof
       restartPolicy: Always

